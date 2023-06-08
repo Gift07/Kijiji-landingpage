@@ -6,8 +6,8 @@ const Vision = () => {
     <div className="w-full bg-gray">
       <div className="w-full px-80 flex py-20">
         <div className="w-full flex items-center justify-between">
-          <div className="bg-love h-[34rem] w-[34rem] rounded-full flex relative justify-center overflow-hidden">
-            <div className="absolute top-2 right-10">
+          <div className="relative">
+            <div className="absolute top-2 right-10 z-10">
               <div className="flex items-center justify-center gap-x-2">
                 <img
                   src="rodrigo.jpg"
@@ -19,11 +19,13 @@ const Vision = () => {
                 </h1>
               </div>
             </div>
-            <img
-              src="miguel.png"
-              alt="miguel"
-              className="absolute bottom-1 h-[32rem] object-cover"
-            />
+            <div className="bg-love h-[34rem] w-[34rem] rounded-full flex relative  justify-center overflow-hidden">
+              <img
+                src="miguel.png"
+                alt="miguel"
+                className="absolute bottom-1 h-[32rem] object-cover"
+              />
+            </div>
           </div>
           <div className="max-w-2xl">
             <h1 className="text-red-500 font-medium text-sm py-2">

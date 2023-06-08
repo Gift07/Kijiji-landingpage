@@ -9,7 +9,7 @@ export default {
         tertiary: "rgb(41,124,132)",
         other: "rgb(0,88,97)",
         love: "rgb(186,200,208)",
-        gray: "rgb(245,245,245`)",
+        gray: "rgb(245,245,245)",
         lessergray: "rgb(227,233,235)",
       },
       fontFamily: {
