@@ -45,7 +45,7 @@ const Navbar = () => {
                 Blog
               </NavLink>
             </li>
-            <li>
+            {/* <li>
               {" "}
               <NavLink
                 to={"/documentation"}
@@ -55,7 +55,7 @@ const Navbar = () => {
               >
                 Documentation
               </NavLink>
-            </li>
+            </li> */}
           </ul>
           <div>
             <button className="px-6 text-sm py-3 uppercase bg-teal-50 text-main font-semibold rounded-full">

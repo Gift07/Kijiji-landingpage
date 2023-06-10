@@ -31,7 +31,7 @@ const Vision = () => {
             </div>
             {/* Tanzanian Flag */}
             <div className="absolute left-0 top-16 z-10">
-              <div className="h-12 bg-gray bg-opacity-30 backdrop-blur-md w-44 rounded-full shadow-md border border-main border-opacity-30 flex items-center px-2 gap-x-2">
+              <div className="h-12 bg-gray bg-opacity-30 backdrop-blur-md w-44 rounded-full shadow-md border border-tertiary flex items-center px-2 gap-x-2">
                 <div>
                   <img
                     src="tzflag.png"
@@ -57,7 +57,7 @@ const Vision = () => {
             </div>
             {/* american flag */}
             <div className="absolute left-0 bottom-24 z-10">
-              <div className="h-12 bg-gray bg-opacity-30 backdrop-blur-md w-44 rounded-full shadow-md border border-main border-opacity-30 flex items-center px-2 gap-x-2">
+              <div className="h-12 bg-gray bg-opacity-30 backdrop-blur-md w-44 rounded-full shadow-md border border-tertiary flex items-center px-2 gap-x-2">
                 <div>
                   <img
                     src="usflag.jpg"
@@ -83,7 +83,7 @@ const Vision = () => {
             </div>
             {/* euro flag */}
             <div className="absolute right-0 bottom-32 z-10">
-              <div className="h-12 bg-gray bg-opacity-30 backdrop-blur-md w-44 rounded-full shadow-md border border-main border-opacity-30 flex items-center px-2 gap-x-2">
+              <div className="h-12 bg-gray bg-opacity-30 backdrop-blur-md w-44 rounded-full shadow-md border border-tertiary flex items-center px-2 gap-x-2">
                 <div>
                   <img
                     src="euflag.png"

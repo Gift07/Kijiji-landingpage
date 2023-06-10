@@ -2,7 +2,7 @@ import React from "react";
 
 const Welcome = () => {
   return (
-    <div className="w-screen h-screen pt-16 bg-gradient-to-r from-main to-tertiary overflow-x-hidden">
+    <div className="w-screen h-screen pt-16 bg-main overflow-x-hidden">
       <div className="w-full px-80 pt-24 flex items-center justify-between">
         <div>
           <h1 className="text-5xl text-teal-50 font-lora py-3">
