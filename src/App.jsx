@@ -1,11 +1,15 @@
-import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Screens/Home";
 import Blog from "./Screens/Blog";
 import About from "./Screens/About";
 import Documentation from "./Screens/Documentation";
+import Aos from "aos";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <BrowserRouter>
       <div className="w-screen min-h-screen bg-teal-50 overflow-x-hidden font-poppins">

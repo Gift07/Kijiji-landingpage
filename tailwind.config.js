@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  mode: "jti",
   theme: {
     extend: {
       colors: {
@@ -15,6 +16,7 @@ export default {
       fontFamily: {
         lora: ["Lora", "serif"],
         poppins: ["Poppins", "Sans-serif"],
+        Lato: ["Lato", "sans-serif"],
       },
     },
   },
