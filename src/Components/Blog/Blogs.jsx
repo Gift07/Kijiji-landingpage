@@ -1,13 +1,17 @@
-import React from "react";
 import { AiOutlineEye } from "react-icons/ai";
 
 const Blogs = () => {
   return (
     <div className="w-full">
-      <div className="px-80 flex items-center justify-center py-20">
-        <div className="w-full grid grid-cols-3 items-center justify-center gap-6">
+      <div className="px-8 md:px-32 lg:px-40 flex items-center justify-center py-20">
+        <div className="w-full lg:md:grid md:lg:grid-cols-3 lg:md:place-items-center lg:md:gap-6">
           {Array.from({ length: 12 }).map((_, i) => (
-            <div className="w-96">
+            <div
+              data-aos="fade-up-left"
+              data-aos-duration="800"
+              key={i}
+              className="w-[90%] lg:w-96 my-4 lg:md:my-0"
+            >
               <div>
                 <img
                   src="rodrigo.jpg"

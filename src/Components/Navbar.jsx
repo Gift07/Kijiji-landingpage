@@ -40,7 +40,7 @@ const Navbar = () => {
                   About Us
                 </NavLink>
               </li>
-              <li>
+              {/* <li>
                 {" "}
                 <NavLink
                   to={"/company"}
@@ -50,7 +50,7 @@ const Navbar = () => {
                 >
                   Company
                 </NavLink>
-              </li>
+              </li> */}
               <li>
                 {" "}
                 <NavLink
@@ -130,7 +130,7 @@ const Navbar = () => {
                     About Us
                   </NavLink>
                 </li>
-                <li className="py-3">
+                {/* <li className="py-3">
                   {" "}
                   <NavLink
                     to={"/company"}
@@ -140,7 +140,7 @@ const Navbar = () => {
                   >
                     Company
                   </NavLink>
-                </li>
+                </li> */}
                 <li className="py-3">
                   {" "}
                   <NavLink

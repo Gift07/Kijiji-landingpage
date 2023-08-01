@@ -1,4 +1,7 @@
 import { IoCheckmarkCircleSharp } from "react-icons/io5";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Vision = () => {
   const data_items = [
@@ -7,11 +10,19 @@ const Vision = () => {
     "instant transfers",
     "multi purpose",
   ];
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      easing: "ease-in-out",
+      once: true,
+      mirror: false,
+    });
+  }, []);
   return (
     <div className="w-full bg-gray">
       <div className="w-full md:px-28 lg:px-40 flex py-20 flex-col lg:flex-row">
         <div className="lg:w-1/2 w-full flex flex-col md:lg:flex-row md:lg:items-center md:lg:justify-between">
-          <div className="relative px-[12.5px]">
+          <div data-aos="zoom-in-right" className="relative px-[12.5px]">
             <div className="absolute -top-2 right-8 md:lg:top-2 md:lg:right-10 z-10">
               <div className="flex items-center justify-center gap-x-2">
                 <img
@@ -113,7 +124,7 @@ const Vision = () => {
               </div>
             </div>
             <div
-              className={`bg-love w-[calc(100%-25px)] h-[24rem]  lg:h-[34rem] lg:w-[34rem]  rounded-full flex relative  justify-center overflow-hidden`}
+              className={`bg-love w-[calc(100%-25px)] h-[24rem]  md:lg:h-[34rem] md:lg:w-[34rem]  rounded-full flex relative  justify-center overflow-hidden`}
             >
               <img
                 src="miguel.png"
@@ -123,7 +134,11 @@ const Vision = () => {
             </div>
           </div>
         </div>
-        <div className="lg:w-1/2 w-full max-w-2xl flex flex-col justify-center lg:pl-24 px-8 md:lg:px-0">
+        <div
+          data-aos="fade-left"
+          data-aos-duration="500"
+          className="lg:w-1/2 w-full max-w-2xl flex flex-col justify-center lg:pl-24 px-8 md:lg:px-0"
+        >
           <h1 className="text-red-500 font-medium text-sm py-2">
             Move your money with us
           </h1>

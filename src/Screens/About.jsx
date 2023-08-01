@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "../Components/Navbar";
 import Welcome from "../Components/About/Welcome";
 import Footer from "../Components/Footer";

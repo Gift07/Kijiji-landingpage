@@ -40,3 +40,20 @@
 .read-the-docs {
   color: #888;
 }
+magicpattern .magicpattern {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: repeat;
+  background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3CclipPath id=%22a%22%3E%3Cpath fill=%22currentColor%22 d=%22M802.5 672Q699 844 475.5 886.5t-331-172Q37 500 160.5 313t344-195q220.5-8 311 187t-13 367Z%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Cg clip-path=%22url(%23a)%22%3E%3Cpath fill=%22%23444cf7%22 d=%22M802.5 672Q699 844 475.5 886.5t-331-172Q37 500 160.5 313t344-195q220.5-8 311 187t-13 367Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+
+.pattern {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: repeat;
+  background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3CclipPath id=%22a%22%3E%3Cpath fill=%22currentColor%22 d=%22M836.5 646.5Q793 793 646.5 854t-288-5Q217 783 135 641.5t2-281Q221 221 360.5 122T656 105.5Q812 188 846 344t-9.5 302.5Z%22%2F%3E%3C%2FclipPath%3E%3Cpattern id=%22b%22 patternUnits=%22userSpaceOnUse%22 width=%2225%22 height=%2225%22 viewBox=%220 0 100 100%22 fill=%22%23212121%22%3E%3Ccircle cx=%2250%22 cy=%2250%22 r=%2212.5%22%2F%3E%3C%2Fpattern%3E%3C%2Fdefs%3E%3Cg clip-path=%22url(%23a)%22%3E%3Cpath fill=%22url(%23b)%22 d=%22M836.5 646.5Q793 793 646.5 854t-288-5Q217 783 135 641.5t2-281Q221 221 360.5 122T656 105.5Q812 188 846 344t-9.5 302.5Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}

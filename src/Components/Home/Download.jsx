@@ -5,7 +5,7 @@ const Download = () => {
         <div className="w-full flex items-center flex-col lg:flex-row">
           <div className="lg:w-1/2 w-full bg-black">
             <img
-              src="android.png"
+              src="android.jpeg"
               alt="androidimage"
               className="w-full h-[30rem] object-contain"
             />
@@ -31,7 +31,7 @@ const Download = () => {
           </div>
           <div className="lg:w-1/2 w-full bg-white">
             <img
-              src="apple.png"
+              src="apple.jpeg"
               alt="androidimage"
               className="w-full h-[30rem] object-contain"
             />
